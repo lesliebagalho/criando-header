@@ -1,0 +1,30 @@
+/* 768px */
+@media screen and (min-width: 768px) {
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .header {
+        .header__container {
+            .mobile {
+                display: none;
+            }
+
+            .desktop {
+                display: block;
+            }
+
+            .menu {
+                display: flex;
+                gap: 2rem;
+
+                .menu__item{
+                    list-style-type: none;
+                    text-decoration: none;
+                    font-size: 1.3rem;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
